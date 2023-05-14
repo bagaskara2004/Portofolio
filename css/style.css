@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: #272727;
+}
+ul li a.nav-link{
+  color: #c9c9c9;
+}
+ul li a.nav-link:hover{
+  color: #ffffff;
+}
+nav .container span{
+  color: yellow;
+}
+nav{
+  background-color: #272727;
+}
+nav .border-nav{
+  border-bottom: 1px solid #6c757d;
+}
+.container .row h1{
+  color: yellow;
+  line-height: 60px;
+}
+.container .row .about{
+  width: 90%;
+}
+.img-profile{
+  border: 2px solid yellow;
+}
+.content-bio h4{
+  color: white;
+}
+.content-bio p{
+  color: #c9c9c9;
+}
+.conten-medsos a i{
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+
+}
+.conten-medsos a .fa-instagram{
+  color: red;
+}
+.conten-medsos a .fa-whatsapp{
+  color: green;
+}
+.conten-medsos a .fa-facebook{
+  color: skyblue;
+}
+/*new*/
+.portofolio{
+  padding-top: 50px;
+}
+.portofolio h2, .portofolio h3{
+  font-family: "Sora";
+  font-size: 38px;
+}
+.portofolio p{
+  line-height: 25px;
+  text-align: justify;
+}
+.portofolio .btn{
+  background-color: #6c757d;
+  transition: 0.5s;
+}
+.portofolio .btn:hover{
+  background-color: #62D9FF;
+}
+footer{
+  border-top:1px solid white ;
+  margin-top: 10px;
+  text-align: center;
+}
+footer ul{
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer a{
+  color: white;
+  font-size: 20px;
+}
+.heading,h2{
+  font-size: 48px;
+  font-family: "sora";
+  color: white;
+}
+.heading span{
+  color: yellow;
+}
+.custum{
+  background-color: #6c757d;
+  width: 100%;
+  height: 20pc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.custum img{
+  transition: ease 2s;
+}
+.custum:hover img{
+  transform: scale(2);
+  cursor: pointer;
+}
+.arrow{
+  background-color: white;
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
+.arrow i{
+  transform: rotate(-45deg);
+}
+.container-do{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.about-do{
+  border-radius: 10px;
+  position: relative;
+}
+.about-do p{
+  color: #c9c9c9;
+}
+.about-do i{
+  transform: translateX(-50%);
+  font-size: 30px;
+  position: absolute;
+  background-color: #6c757d;
+  border: 1px solid white;
+  padding: 15px;
+  top: -30px;
+  border-radius: 50%;
+}
+.skill-ku{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+.skill-ku div{
+  background-color:#6c757d;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
